@@ -14,7 +14,7 @@ TODO
 LockSmith.lockTTL = 3;
 
 // setup an observer that can only run once over all instances
-LockSmith.once(function() {
+LockSmith.once("unique name of your lock", function() {
     console.log('do something that can only run once');
     Projects.find().observe({
         'added': function() {

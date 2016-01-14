@@ -29,9 +29,9 @@ _.extend(Lock.prototype, {
 
 
 _.extend(LockSmith, {
-  once: function(cb) {
+  once: function(key, cb) {
     var checkLock = function() {
-      var lock = LockSmith.lock("testlock");
+      var lock = LockSmith.lock(key);
       if (lock && lock.isMine()) {
         cb();
         // keep lock
