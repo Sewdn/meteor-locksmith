@@ -1,7 +1,7 @@
 # meteor-locksmith
 Lock a function over several app instances or builds.
 
-Inspired by the API of (http://fastosphere.meteor.com/shepelt%253Alocksmith?q=locks)[shepelt:locksmith]. Couldn't find any repo with source, so I reimplemented.
+Inspired by the API of [shepelt:locksmith](http://fastosphere.meteor.com/shepelt%253Alocksmith?q=locks). Couldn't find any repo with source, so I reimplemented.
 
 ## Why use this package?
 TODO
